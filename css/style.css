@@ -1,0 +1,107 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cadetblue;
+    /* background-image: url(../img/different-sport-balls.jpg);
+    background-size:cover; */
+    padding: 0px 1rem;
+    
+}
+/* main{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  } */
+#seccion_principal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 0.5fr);
+    grid-gap: 20px;
+    padding:15px;
+    width: 70%;
+    height: auto;
+    float: left;
+    background-color: beige;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto
+}
+.deslizador{
+    box-sizing: content-box;
+    box-shadow: 5px;
+    /* width: 90%;
+    height: auto; */
+    margin:1%;
+}
+
+#seccion_principal .deslizador{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+#seccion_principal article img{
+    width: 80%;
+    height: 60%;
+    margin:0px 0px 10px 0px;
+    /* padding:0% 2%; */
+    max-width: 1280px;
+    max-height: 720px;
+}
+article {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    /* width: 40%;
+    height: 30%; */
+    margin:10px;
+    padding: 15px;
+    text-align: left;
+    background-color: bisque;
+}
+
+article :hover {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    /* width: 40%;
+    height: 30%; */
+    margin:10px;
+    padding: 15px;
+    text-align: left;
+    background-color: bisque;
+}
+
+.carousel-item img {
+    max-height: 700px; /* Las imágenes no superarán la altura del carrusel */
+    max-width: 1000px; 
+  }
+
+#seccion_lateral{
+    width: 30%;
+    height: auto;
+    float: right;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#seccion_lateral div{
+    /* background: rgb(225, 168, 62); */
+    margin-top: 5px;
+    padding: 5px;
+    /* color: #FFF; */
+    /* line-height: 20px; */
+    text-align:left;
+    border: 1px solid  #4d5252;
+}

@@ -1,0 +1,99 @@
+header {
+    background-color: white;
+    /* width: auto;
+    height: 120px; */
+    /* position: absolute; */
+    /* display: block; */
+    border-bottom: 1px groove rgba(174, 223, 255, 0.658);
+    /* padding: 0px 1rem; */
+    /* align-items:stretch;
+    justify-content:center; */
+    /* top: 0;
+    left: 0; */
+    /* right: 0; */
+    /* width: 100%; */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    /* z-index: 999;
+    margin-left: auto;
+    margin-right: auto; */
+}
+header .contenedor{
+    height: 120px;
+    width:100%;
+    background-color: aqua;
+    display:inline-block
+    /* display: flex; */
+    /* border: 1px groove rgba(174, 223, 255, 0.658); */
+    /* float:left; */
+    /* display: flex;    
+    flex-wrap: wrap;
+    
+    align-content: space-around;
+    
+    justify-content:center; */
+}
+header .contenedor .logo{
+    width: 120px;
+    height: 120px;
+    /* position: absolute;
+    top:0%;
+    left: 0%; */
+    padding: 1px;
+    margin: 0px 5px 0px 0px;
+    background-image: url(../img/logo1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    float:left
+}   
+header .contenedor .barra_busqueda{
+    display: inline;
+    /* justify-content: flex-end;
+    align-items: center; */
+    width: 290px;
+    height: 56px;
+    padding: 2px 1rem;
+    margin: 2px;
+    float:right
+    /* position: absolute;
+    left: 50%; */
+       
+}
+
+.barra_busqueda i{
+    padding: 1px 1rem;
+    margin:3px;
+    float:left;
+}
+.barra_busqueda input{
+    margin:3px;
+    float:right;
+}
+
+.menu_principal{
+    width: 85%;
+    height: 58px;
+    float:right;
+    /* position: absolute;
+    left: 18%;
+    top: 60%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu_principal ul li { 
+    list-style-type: none;
+    float: left;
+}
+.menu_principal ul li a{
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    /* display:inline-block; */
+    color: #2d3646;
+  }
+
+header nav ul li a:hover{
+    background-color: #2fe5cd;
+    color: white;
+  }
