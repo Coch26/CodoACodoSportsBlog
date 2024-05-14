@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <title>Pasión Deportiva</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -93,30 +96,59 @@
             <!-- </div> -->
         </section>
         <aside id="seccion_lateral">
-            <div class="etiquetas"><h3>Etiquetas</h3>
+          <div class="lineacorta"> 
+            <div class="etiquetas"><h3>Etiquetas</h3>  
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cum illo, quaerat consequatur esse perferendis ducimus necessitatibus ullam numquam soluta laborum ratione, quibusdam ab est accusantium rem asperiores labore officia!</p>
             </div>
+          </div>  
+          <div class="lineacorta">         
             <div class="calendario"><h3>Calendario</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eligendi iusto quaerat recusandae! Totam fugiat voluptates animi ullam illum et maiores, maxime nisi, vel, veritatis eaque quis soluta voluptatem accusamus?</p>
             </div>
+          </div>  
+          <div class="lineacorta">
             <div class="contacto"><h3>Contacto</h3>
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <section>
+              <form class="formBox">  
+                <fieldset>
+                  <div class="inputBox">  
+                    <label for="nombre"><b>Nombre</b></label>
+                    <input type="text" id="nombre" name="nombre" size="40" maxlength="15" required placeholder="Ejemplo: Juan">
+                  </div>
+                  <div class="inputBox">
+                    <label for="apellido"><b>Apellido</b></label>
+                    <input type="text" id="apellido" name="apellido" size="40" maxlength="15" required>
+                  </div>
+                  <div class="inputBox">  
+                    <label for="email"><b>Correo electrónico</b></label>
+                    <input type="email" id="correo" name="correo" size="40" required>
+                  </div>
+                  <div class="inputBox">
+                    <label for="telefono"><b>Teléfono</b></label>
+                    <input type="number" id="telefono" name="telefono" size="40" maxlength="10" minlength="10" required>
+                    <div class="checktipotel">
+                      <input type="checkbox" name="op" value="1">Celular
+                      <input type="checkbox" name="op" value="2">Otro
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-            </div>
+                  </div>
+                  <div class="inputBox">
+                    <label for="comentarios"><b>Escriba su consulta</b></label>
+                    <textarea rows="10" cols="50"  name="comentarios" placeholder="escriba aquí su consulta..."></textarea> 
+                  </div>
+                  <div class="inputBox"></Div>
+                    <label for="adjunto"><b>Adjuntar foto</b></label>
+                    <input type="file" id="adjunto" accept=".jpg,.jpeg,.png">
+                  <br>
+                  </div>
+                  <input type="checkbox" name="condicion" required>Acepto los terminos y condiciones
+                  <br><br>
+                  <input type="submit" value="Enviar Datos">
+                  <input type="reset" value="Borrar Formulario">    
+                </fieldset>
+              </form>
+            </section>
+          </div>
+        </div>    
         </aside>
     </main>
     <footer>

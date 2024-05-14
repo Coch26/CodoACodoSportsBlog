@@ -5,7 +5,11 @@
 } */
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
     background-color: cadetblue;
     /* background-image: url(../img/different-sport-balls.jpg);
     background-size:cover; */
@@ -96,12 +100,46 @@ article :hover {
     align-content: space-around;
 }
 
-#seccion_lateral div{
-    /* background: rgb(225, 168, 62); */
+/* #seccion_lateral div{
     margin-top: 5px;
     padding: 5px;
-    /* color: #FFF; */
-    /* line-height: 20px; */
     text-align:left;
     border: 1px solid  #4d5252;
+} */
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.inputBox label {
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.inputBox input,
+.inputBox textarea {
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1.1em;
+    outline: none;
+    box-sizing: border-box;
+}
+.checktipotel{
+    display:inline;
+    padding: 10px;
+}
+
+.lineacorta{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
 }
