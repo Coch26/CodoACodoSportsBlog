@@ -110,26 +110,35 @@ article :hover {
 .inputBox {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
     margin-bottom: 10px;
-    width: 90%;
+    width: 70%;
+    align-items: normal;
 }
 
-.inputBox label {
+.inputBox :hover {
+    transform: scale(1.05);
+}
+
+.inputBox label,.inputBox  {
     font-size: 1rem;
-    font-weight: 800;
-    color: rgb(0, 0, 0);
+    font-weight: 500;
+    color: rgb(255, 255, 255);
     margin-bottom: 5px;
     margin-top: 10px;
+
 }
 
 .inputBox input,
 .inputBox textarea {
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
-    font-size: 1.1em;
+    font-size: 1em;
     outline: none;
     box-sizing: border-box;
 }
+
+
 .checktipotel{
     display:inline;
     padding: 10px;
@@ -142,4 +151,40 @@ article :hover {
     border-radius: 5px;
     outline: none;
     font-size: 1rem;
+}
+
+.contacto{
+    background:linear-gradient(90deg,rgb(159, 203, 198) 0%, rgb(105, 113, 112) 100%);
+    border-radius: 10px;
+}
+
+.contacto h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(63, 243, 168);
+    padding-bottom: 10px;
+    padding-top: 15px;
+}   
+
+.checkBox{
+    margin-left: 15px;
+    color:white;
+
+}
+
+.Botones_form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-bottom:15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
 }

@@ -10,12 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <title>Pasión Deportiva</title>
+    <title>MVP.Net</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="contenedor">
             <div class="logo"></div>
                 <!-- <img src="/img/logo.jpg" alt="logo">Logo</div> -->
@@ -24,12 +24,12 @@
                 <input type="text">
             </div> 
             <nav class="menu_principal">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="pages/Deportes.html">Deportes</a></li>
-                    <li><a href="pages/Deportistas.html">Equipos</a></li>
-                    <li><a href="pages/Equipos.html">Deportistas</a></li>
-                    <li><a href="pages/Comunidad.html">Comunidad</a></li>
+                <ul class="lista_menu">
+                    <li class="item_menu"><a href="#">Inicio</a></li>
+                    <li class="item_menu"><a href="pages/Deportes.html">Deportes</a></li>
+                    <li class="item_menu"><a href="pages/Deportistas.html">Equipos</a></li>
+                    <li class="item_menu"><a href="pages/Equipos.html">Deportistas</a></li>
+                    <li class="item_menu"><a href="pages/Comunidad.html">Comunidad</a></li>
                 </ul>
             </nav>
          </div>
@@ -112,38 +112,32 @@
               <form class="formBox">  
                 <fieldset>
                   <div class="inputBox">  
-                    <label for="nombre"><b>Nombre</b></label>
-                    <input type="text" id="nombre" name="nombre" size="40" maxlength="15" required placeholder="Ejemplo: Juan">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" size="30" maxlength="15" required placeholder="Ejemplo: Juan">
                   </div>
                   <div class="inputBox">
-                    <label for="apellido"><b>Apellido</b></label>
+                    <label for="apellido">Apellido</label>
                     <input type="text" id="apellido" name="apellido" size="40" maxlength="15" required>
                   </div>
                   <div class="inputBox">  
-                    <label for="email"><b>Correo electrónico</b></label>
+                    <label for="email">Correo electrónico</label>
                     <input type="email" id="correo" name="correo" size="40" required>
                   </div>
                   <div class="inputBox">
-                    <label for="telefono"><b>Teléfono</b></label>
+                    <label for="telefono">Teléfono</label>
                     <input type="number" id="telefono" name="telefono" size="40" maxlength="10" minlength="10" required>
-                    <div class="checktipotel">
-                      <input type="checkbox" name="op" value="1">Celular
-                      <input type="checkbox" name="op" value="2">Otro
-                    </div>
                   </div>
                   <div class="inputBox">
-                    <label for="comentarios"><b>Escriba su consulta</b></label>
+                    <label for="comentarios">Escriba su consulta</label>
                     <textarea rows="10" cols="50"  name="comentarios" placeholder="escriba aquí su consulta..."></textarea> 
                   </div>
-                  <div class="inputBox"></Div>
-                    <label for="adjunto"><b>Adjuntar foto</b></label>
-                    <input type="file" id="adjunto" accept=".jpg,.jpeg,.png">
-                  <br>
-                  </div>
+                  <div class="checkBox">
                   <input type="checkbox" name="condicion" required>Acepto los terminos y condiciones
-                  <br><br>
-                  <input type="submit" value="Enviar Datos">
-                  <input type="reset" value="Borrar Formulario">    
+                  </div>
+                  <div class="Botones_form">
+                  <input type="submit" value="Enviar Datos" class="boton_form">
+                  <input type="reset" value="Borrar Formulario" class="boton_form">    
+                  </div>
                 </fieldset>
               </form>
             </section>
