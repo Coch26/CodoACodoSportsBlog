@@ -51,7 +51,7 @@ header .contenedor .logo{
     display: inline;
     /* justify-content: flex-end;
     align-items: center; */
-    width: 290px;
+    width: 300px;
     height: 56px;
     padding: 8px 1rem;
     margin: 2px;
@@ -61,13 +61,14 @@ header .contenedor .logo{
 }
 
 .barra_busqueda i{
-    padding: 1px 1rem;
+    padding: 1px;
     margin:3px;
-    float:left;
+    float:right;
+    scale:1.5;
 }
 .barra_busqueda input{
     margin:3px;
-    float:right;
+    float:left;
 }
 
 .menu_principal{
