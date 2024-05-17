@@ -45,20 +45,29 @@ header .contenedor .logo{
     
     margin: 0px 5px 0px 0px;
     background-image: url(/img/Preview.png);
-    opacity: 0.7;
+    
     background-size:contain;
     background-repeat: no-repeat;
     float:left
 }   
+
+.logo{
+    border-radius: 15%;
+    opacity: 0.5;
+}
 .barra_busqueda{
     display: inline;
     /* justify-content: flex-end;
     align-items: center; */
-    width: 250px;
-    height: 56px;
-    padding: 8px 0rem 8px 1rem;
-    margin: 2px;
-    float:right
+    width: 15%;
+    height: 35px;
+    padding: 0px 0rem 0px 1rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    float:right;
+    border:1px solid rgb(52, 52, 52);
+    background-color: white;
+    border-radius: 25px;
     /* position: absolute;
     left: 50%; */      
 }
@@ -67,8 +76,8 @@ header .contenedor .logo{
     padding: 8px 1rem 8px 2px;
     /* margin:3px; */
     float:right;
-    scale:1.5;
-    color:whitesmoke;
+    /* scale:1.5; */
+    color:rgb(23, 23, 23);
 }
 
 .barra_busqueda i:hover{
@@ -76,10 +85,14 @@ header .contenedor .logo{
 }
 
 .barra_busqueda input{
-    margin:3px;
+    margin:0px;
     float:left;
-    width: 72%;
+    width: 75%;
+    height: 32px;
+    border-radius: 25px; 
+    border:1px solid white; 
 }
+
 
 .menu_principal{
     width: 85%;
