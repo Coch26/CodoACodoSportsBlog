@@ -72,8 +72,9 @@ article {
     margin:10px;
     padding: 15px;
     text-align: left;
+    color:whitesmoke;
     /* background-color: bisque; */
-    border-bottom:solid 1px gray;
+    border-bottom:solid 1px rgb(248, 237, 237);
 }
 
 /* article :hover {
@@ -131,32 +132,35 @@ article :hover {
     flex-direction: column;
     margin-left: 15px;
     margin-bottom: 10px;
-    width: 70%;
+    width: 85%;
     align-items: normal;
 }
 
-.inputBox :hover {
+/* .inputBox :hover {
     transform: scale(1.05);
-}
+} */
 
 .inputBox label,.inputBox  {
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(255, 255, 255);
-    margin-bottom: 5px;
-    margin-top: 10px;
+    color:whitesmoke;
+    margin-bottom: 3px;
+    margin-top: 5px;
 
 }
 
 .inputBox input,
 .inputBox textarea {
-    padding: 10px;
+    padding: 3px;
     border: 1px solid rgb(255, 255, 255);
     font-size: 1em;
     outline: none;
     box-sizing: border-box;
 }
 
+/* .inputBox input:focus{
+    transform:scale(1.05);
+} */
 
 .checktipotel{
     display:inline;
@@ -173,19 +177,19 @@ article :hover {
 }
 
 .contacto{
-    background:linear-gradient(90deg,rgb(135, 139, 139) 50%, rgb(105, 113, 112) 50%);
+    /* background:linear-gradient(90deg,rgb(135, 139, 139) 50%, rgb(105, 113, 112) 50%); */
     border-radius: 10px;
 }
 
 .contacto h3{
     font-size: 1.4rem;
     font-weight: 700;
-    color: rgb(240, 235, 235);
+    color: whitesmoke;
     margin-bottom: 5px;
     margin-top: 5px;
     margin-left: 15px;
-    border-bottom: 1px solid rgb(51, 53, 52);
-    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 7px;
     padding-top: 15px;
 }   
 

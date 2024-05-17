@@ -118,7 +118,7 @@
                 <fieldset>
                   <div class="inputBox">  
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" size="30" maxlength="15" required placeholder="Ejemplo: Juan">
+                    <input type="text" id="nombre" name="nombre" size="111" maxlength="25" required placeholder="Ejemplo: Juan">
                   </div>
                   <div class="inputBox">
                     <label for="apellido">Apellido</label>
@@ -134,10 +134,10 @@
                   </div>
                   <div class="inputBox">
                     <label for="comentarios">Escriba su consulta</label>
-                    <textarea rows="10" cols="50"  name="comentarios" placeholder="escriba aquí su consulta..."></textarea> 
+                    <textarea rows="6" cols="50"  name="comentarios" placeholder="escriba aquí su consulta..."></textarea> 
                   </div>
                   <div class="checkBox">
-                  <input type="checkbox" name="condicion" required>Acepto los terminos y condiciones
+                  <input type="checkbox" name="condicion" required>  Acepto los terminos y condiciones
                   </div>
                   <div class="Botones_form">
                   <input type="submit" value="Enviar Datos" class="boton_form">
@@ -152,15 +152,18 @@
     </main>
     <footer>
        
-        <nav>Redes sociales
-            <ul>
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-youtube"></i></li>
-                <li><i class="fa-brands fa-whatsapp"></i></li>
-            </ul>
+        <nav>
+          <span class="redes">Redes sociales</span> 
+            <!-- <ul> -->
+            <div class="enlaces_marcas">
+              <a href="http://www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
+              <a href="http://www.instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
+              <a href="http://www.youtube.com"><i class="fa-brands fa-youtube fa-xl"></i></a>
+              <a href="tel:+1 91 155-22554"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+            </div>
+              <!-- </ul> -->
         </nav>
-        <p>Todos los derechos reservados | 2024</p> 
+        <span>Todos los derechos reservados | 2024</span> 
     </footer>
     <script src="https://kit.fontawesome.com/0d491835e8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

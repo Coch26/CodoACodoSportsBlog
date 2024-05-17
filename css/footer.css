@@ -1,5 +1,5 @@
 footer {
-    background-color: white;
+    background-color: rgb(28, 75, 41);
     height: 120px;
     width: 100%;
     /* position: absolute; */
@@ -7,6 +7,7 @@ footer {
     border-top: 1px groove rgba(174, 223, 255, 0.658);
     padding: 0px 1rem; 
     align-items:stretch;
+    color:whitesmoke;
     /* justify-content:center; */
     /* top: 0; */
     /* left: 0; */
@@ -20,14 +21,55 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-footer p{
+footer span{
     float:right;
+    font-size: x-small;
 }
 footer nav{
     float:left;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    align-content: start;
+    padding-left: 1rem;
+
 }
-footer nav ul li{
-    display: inline;
-    padding: 1px 1rem;
-    justify-items: stretch;   
+
+.enlaces_marcas{
+    width: 25%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: start;
+    padding-top: 10px;
+    padding-left: 0rem;
+}
+
+.enlaces_marcas:first-child{
+    padding-left: 0rem;
+}
+
+.redes{
+    width:25%;
+    height:25px;
+    font-size: medium;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 5px;
+}
+/* footer nav ul li{
+    display:inline; 
+    padding: 5px 1rem;
+} */
+
+footer a{
+   color: white;
+}
+
+.fa-brands:hover{
+    transform: scale(1.4);
 }

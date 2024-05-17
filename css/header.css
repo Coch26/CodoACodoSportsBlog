@@ -1,5 +1,5 @@
 .header {
-    background-color: white;
+    background-color: rgb(28, 75, 41);
     /* width: auto;
     height: 120px; */
     /* position: absolute; */
@@ -15,6 +15,7 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     height: 120px;
+
     /* z-index: 999;
     margin-left: auto;
     margin-right: auto; */
@@ -41,8 +42,10 @@ header .contenedor .logo{
     top:0%;
     left: 0%; */
     padding: 1px;
+    
     margin: 0px 5px 0px 0px;
     background-image: url(/img/Preview.png);
+    opacity: 0.7;
     background-size:contain;
     background-repeat: no-repeat;
     float:left
@@ -51,9 +54,9 @@ header .contenedor .logo{
     display: inline;
     /* justify-content: flex-end;
     align-items: center; */
-    width: 300px;
+    width: 250px;
     height: 56px;
-    padding: 8px 1rem;
+    padding: 8px 0rem 8px 1rem;
     margin: 2px;
     float:right
     /* position: absolute;
@@ -61,14 +64,21 @@ header .contenedor .logo{
 }
 
 .barra_busqueda i{
-    padding: 1px;
-    margin:3px;
+    padding: 8px 1rem 8px 2px;
+    /* margin:3px; */
     float:right;
     scale:1.5;
+    color:whitesmoke;
 }
+
+.barra_busqueda i:hover{
+    transform: scale(1.4);
+}
+
 .barra_busqueda input{
     margin:3px;
     float:left;
+    width: 72%;
 }
 
 .menu_principal{
@@ -95,17 +105,19 @@ header .contenedor .logo{
     list-style-type: none;
     float: left;
     font-size:medium;
+    
 }
 
 .menu_principal ul li a{
     text-decoration: none;
     padding: 10px 25px 10px 25px;
     /* display:inline-block; */
-    color: #2d3646;
+    color: whitesmoke;
 }
 
 .menu_principal ul li a:hover{
-    background-color: #2fe5cd99;
+    background-color: #5b9a01;
     color: white;
-    
+    font-weight: 600;
+
 }
