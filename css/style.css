@@ -88,8 +88,10 @@ article {
     text-align: left;
     background-color: bisque;
 } */
-
-article :hover {
+main{
+    color: whitesmoke;
+}
+article h4:hover {
     /* display: flex;
  
     flex-direction: column;
@@ -98,6 +100,7 @@ article :hover {
     padding: 15px;
     text-align: left; */
     background-color: bisque;
+    /* cursor:pointer; */
     
 }
 
