@@ -62,7 +62,7 @@
                       <div class="carousel-item">
                         <img src="../img/carousel3.webp" class="d-block w-100" alt="La NBA esta que arde">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>La NBA esta que arde</h5>
+                          <h5 id="tituloNBA">La NBA esta que arde</h5>
                           <p>Resultados partidos de playoffs.</p>
                         </div>
                       </div>
@@ -115,19 +115,19 @@
           <div class="lineacorta">
             <div class="contacto"><h3>Contacto</h3>
               <section>
-              <form class="formBox">  
+              <form class="formBox" onsubmit="return validaFormulario()">  
                 <fieldset>
                   <div class="inputBox">  
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" size="111" maxlength="25" required placeholder="Ejemplo: Juan">
+                    <input type="text" id="nombre1" size="111" maxlength="25" required placeholder="Ejemplo: Juan">
                   </div>
                   <div class="inputBox">
                     <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" name="apellido" size="40" maxlength="15" required placeholder="Ejemplo: Ruiz">
+                    <input type="text" id="apellido" size="40" maxlength="15" required placeholder="Ejemplo: Ruiz">
                   </div>
                   <div class="inputBox">  
                     <label for="email">Correo electrónico</label>
-                    <input type="email" id="correo" name="correo" size="40" required placeholder="juanruiz@mail.com">
+                    <input type="email" id="correo" size="40" required placeholder="juanruiz@mail.com">
                   </div>
                   <div class="inputBox">
                     <label for="pais">Pais</label>
@@ -146,13 +146,13 @@
                   </div>
                   <div class="inputBox">
                     <label for="comentarios">Escriba su consulta</label>
-                    <textarea rows="6" cols="50"  name="comentarios" placeholder="escriba aquí su consulta..."></textarea> 
+                    <textarea rows="6" cols="50" id="comentarios" placeholder="escriba aquí su consulta..."></textarea> 
                   </div>
                   <div class="checkBox">
                   <input type="checkbox" name="condicion" required>  Acepto los terminos y condiciones
                   </div>
                   <div class="Botones_form">
-                  <input type="submit" value="Enviar Datos" class="boton_form">
+                  <input type="submit" value="Enviar Datos" class="boton_form" >
                   <input type="reset" value="Borrar Formulario" class="boton_form">    
                   </div>
                 </fieldset>
@@ -179,5 +179,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/0d491835e8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script src="/js/index.js"></script>
+  </body>
 </html>
