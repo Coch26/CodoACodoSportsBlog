@@ -5,7 +5,7 @@ footer {
     /* position: absolute; */
     display: inline;
     border-top: 1px groove rgba(174, 223, 255, 0.658);
-    padding: 0px 1rem; 
+    padding: 0px 1em; 
     align-items:stretch;
     color:whitesmoke;
     /* justify-content:center; */
@@ -18,12 +18,14 @@ footer {
     z-index: 999;
     float: left;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-left: 1em;
+    margin-right: 1em;
 }
 footer span{
     float:right;
-    font-size: x-small;
+    font-size: 0.5em;
 }
 footer nav{
     float:left;
@@ -34,7 +36,7 @@ footer nav{
     /* flex-wrap: wrap; */
     justify-content: start;
     align-content: start;
-    padding-left: 1rem;
+    padding-left: 1em;
 
 }
 
@@ -47,17 +49,17 @@ footer nav{
     justify-content: space-evenly;
     justify-items: start;
     padding-top: 10px;
-    padding-left: 0rem;
+    padding-left: 0em;
 }
 
 .enlaces_marcas:first-child{
-    padding-left: 0rem;
+    padding-left: 0em;
 }
 
 .redes{
     width:25%;
     height:25px;
-    font-size: medium;
+    font-size: 1em;
     border-bottom: 1px solid whitesmoke;
     margin-bottom: 5px;
 }
@@ -72,4 +74,150 @@ footer a{
 
 .fa-brands:hover{
     transform: scale(1.4);
+}
+
+@media all and (min-width:600px) and (max-width:1023px){
+    footer {
+        height: 90px;
+        width: 100%;
+        /* position: absolute; */
+        display: inline;
+        /* padding: 0px 1rem;  */
+        /* align-items:stretch; */
+        /* justify-content:center; */
+        /* top: 0; */
+        /* left: 0; */
+        /* right: 0; */
+        /* width: 100%; */
+        /* float: left; */
+        margin-top: 7px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer span{
+        /* float:right;
+        font-size: x-small; */
+    }
+    footer nav{
+        /* float:left;
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column; */
+        /* flex-wrap: wrap; */
+        /* justify-content: start;
+        align-content: start;
+        padding-left: 1rem;
+     */
+    }
+    
+    .enlaces_marcas{
+        /* width: 25%; */
+        height: 50px;
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: start; */
+        padding-top: 7px;
+        /* padding-left: 0rem; */
+    }
+    
+    .enlaces_marcas:first-child{
+        /* padding-left: 0rem; */
+    }
+    
+    .redes{
+        width:25%;
+        height:25px;
+        /* font-size: 1rem; */
+        /* border-bottom: 1px solid whitesmoke; */
+        margin-bottom: 3px;
+    }
+    /* footer nav ul li{
+        display:inline; 
+        padding: 5px 1rem;
+    } */
+    
+    footer a{
+
+    }
+    
+    .fa-brands:hover{
+        /* transform: scale(1.4); */
+    }
+
+}
+
+@media all and (max-width:599px){
+    footer {
+        height: 50px;
+        width: 100%;
+        /* position: absolute; */
+        display: inline;
+        /* padding: 0px 1rem;  */
+        /* align-items:stretch; */
+        /* justify-content:center; */
+        /* top: 0; */
+        /* left: 0; */
+        /* right: 0; */
+        /* width: 100%; */
+        /* float: left; */
+        margin-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer span{
+        /* float:right;
+        font-size: x-small; */
+    }
+    footer nav{
+        /* float:left;
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column; */
+        /* flex-wrap: wrap; */
+        /* justify-content: start;
+        align-content: start;
+        padding-left: 1rem;
+     */
+    }
+    
+    .enlaces_marcas{
+        /* width: 25%; */
+        height: 25px;
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-items: start; */
+        padding-top: 3px;
+        /* padding-left: 0rem; */
+    }
+    
+    .enlaces_marcas:first-child{
+        /* padding-left: 0rem; */
+    }
+    
+    .redes{
+        width:25%;
+        height:15px;
+        /* font-size: 1rem; */
+        /* border-bottom: 1px solid whitesmoke; */
+        margin-bottom: 1px;
+    }
+    /* footer nav ul li{
+        display:inline; 
+        padding: 5px 1rem;
+    } */
+    
+    footer a{
+
+    }
+    
+    .fa-brands:hover{
+        /* transform: scale(1.4); */
+    }
+
 }
