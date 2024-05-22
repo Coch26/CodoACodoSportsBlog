@@ -3,13 +3,17 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <title>Equipos</title>
+    <title>Comunidad</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="header">
@@ -18,38 +22,56 @@
                 <!-- <img src="/img/logo.jpg" alt="logo">Logo</div> -->
             <div class="barra_busqueda"> 
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Buscar.....">
+                <div><input type="text" placeholder="Buscar....."></div>
             </div> 
             <nav class="menu_principal">
                 <ul class="lista_menu">
                     <li class="item_menu"><a href="../index.html">Inicio</a></li>
                     <li class="item_menu"><a href="../pages/Deportes.html">Deportes</a></li>
-                    <li class="item_menu"><a href="../pages/Equipos.html">Equipos</a></li>
                     <li class="item_menu"><a href="../pages/Deportistas.html">Deportistas</a></li>
-                    <li class="item_menu"><a href="../pages/Comunidad.html">Comunidad</a></li>
+                    <li class="item_menu"><a href="../pages/Equipos.html">Equipos</a></li>
+                    <li class="item_menu"><a href="#">Comunidad</a></li>
                 </ul>
             </nav>
          </div>
+                     <!-- Top Navigation Menu -->
+                     <div class="topnav">
+                      <!-- <a href="#home" class="active">Logo</a> -->
+                      <!-- Navigation links (hidden by default) -->
+                      <div id="myLinks">
+                        <a href="#">Inicio</a>
+                        <a href="pages/Deportes.html">Deportes</a>
+                        <a href="pages/Deportistas.html">Deportistas</a>
+                        <a href="pages/Equipos.html">Equipos</a>
+                        <a href="pages/Comunidad.html">Comunidad</a>
+                      </div>
+                      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </div>
+        
     </header>
     <main>
         <Div> Comunidad</Div>
     </main>
     <footer>
-       
         <nav>
           <span class="redes">Redes sociales</span> 
-            <!-- <ul> -->
+            <div class="linea_div"></div> 
+          <!-- <ul> -->
             <div class="enlaces_marcas">
               <a href="http://www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
               <a href="http://www.instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
               <a href="http://www.youtube.com"><i class="fa-brands fa-youtube fa-xl"></i></a>
               <a href="tel:+1 91 155-22554"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
             </div>
-              <!-- </ul> -->
+             <!-- </ul> -->
         </nav>
         <span>Todos los derechos reservados | 2024</span> 
     </footer>
     <script src="https://kit.fontawesome.com/0d491835e8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>

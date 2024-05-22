@@ -1,53 +1,25 @@
 header {
     background-color: rgb(28, 75, 41);
-    /* width: auto;
-    height: 120px; */
-    /* position: absolute; */
-    /* display: block; */
     border-bottom: 1px groove rgba(174, 223, 255, 0.658);
-    /* padding: 0px 1rem; */
-    /* align-items:stretch;
-    justify-content:center; */
-    /* top: 0;
-    left: 0; */
-    /* right: 0; */
-    /* width: 100%; */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     height: 120px;
     margin-left: 1em;
     margin-right: 1em;
-
-    /* z-index: 999;
-    margin-left: auto;
-    margin-right: auto; */
 }
+
 header .contenedor{
     height: 120px;
     width:100%;
-    /* background-color: aqua; */
     display:inline-block
-    /* display: flex; */
-    /* border: 1px groove rgba(174, 223, 255, 0.658); */
-    /* float:left; */
-    /* display: flex;    
-    flex-wrap: wrap;
-    
-    align-content: space-around;
-    
-    justify-content:center; */
 }
+
 header .contenedor .logo{
     width: 120px;
     height: 120px;
-    /* position: absolute;
-    top:0%;
-    left: 0%; */
-    padding: 1px;
-    
+    padding: 1px;   
     margin: 0px 5px 0px 0px;
-    background-image: url(/img/Preview.png);
-    
+    background-image: url(/img/Preview.png);   
     background-size:contain;
     background-repeat: no-repeat;
     float:left
@@ -59,27 +31,22 @@ header .contenedor .logo{
 }
 .barra_busqueda{
     display: inline;
-    /* justify-content: flex-end;
-    align-items: center; */
     width: 15%;
     height: 35px;
-    padding: 0px 0rem 0px 1rem;
+    padding: 0px 0rem 0px 1em;
     margin-right: 2em;
     margin-top: 1em;
     float:right;
     border:1px solid rgb(52, 52, 52);
     background-color: white;
-    border-radius: 25px;
-    /* position: absolute;
-    left: 50%; */      
+    border-radius: 25px; 
 }
 
 .barra_busqueda i{
     padding: 8px 1em 8px 2px;
-    /* margin:3px; */
     float:right;
-    /* scale:1.5; */
     color:rgb(23, 23, 23);
+    
 }
 
 .barra_busqueda i:hover{
@@ -100,9 +67,6 @@ header .contenedor .logo{
     width: 85%;
     height: 58px;
     float:right;
-    /* position: absolute;
-    left: 18%;
-    top: 60%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -126,7 +90,6 @@ header .contenedor .logo{
 .menu_principal ul li a{
     text-decoration: none;
     padding: 10px 25px 10px 25px;
-    /* display:inline-block; */
     color: whitesmoke;
     font-size: 1em;
 }
@@ -136,6 +99,10 @@ header .contenedor .logo{
     color: white;
     font-weight: 600;
 
+}
+
+.topnav{
+    display:none;
 }
 
 @media all and (min-width:600px) and (max-width:1023px) {
@@ -151,13 +118,9 @@ header .contenedor .logo{
         grid-template-columns: repeat(0.15fr 0.50 0.35fr);
         grid-template-rows: repeat(2, 0.5fr);
         align-content: flex-end;
-        /* justify-content: space-around; */
         justify-items: stretch;
-        /* width:100%;
-        display:inline-block
-        align-content: space-around;        
-        justify-content:center; */
     }
+
     header .contenedor .logo{
         width: 90px;
         height: 90px;
@@ -169,59 +132,20 @@ header .contenedor .logo{
         max-height: 90px;
         padding: 1px;       
         margin: 0px;
-    }   
-    
-    /* .logo{
-        border-radius: 15%;
-        opacity: 0.5;
-    } */
+    }       
 
     .barra_busqueda{
-        /* display: inline; */
-        /* justify-content: flex-end;
-        align-items: center; */
-        width: 100%;
-        height: 70%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        justify-items: end;
-        align-content: center;
-        font-size: small;
+        display: inline;
+        width: 80%;
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-items: stretch;
-        align-content: center;
-
-        padding: 3px 1px;
-        margin-right: 0px;
-        margin-top: 0px;
-        float:none;
-        /* border:1px solid rgb(52, 52, 52);
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-left: 10%;
+        border:1px solid rgb(52, 52, 52);
         background-color: white;
-        border-radius: 25px; */
-        /* position: absolute;
-        left: 50%; */      
     }
-    
-    .barra_busqueda i{
-        padding: 0px;
-        margin:0px;
-        float:none;
-    }
-    
-    .barra_busqueda input{
-        margin:0px;
-        float:none; 
-        width: 100%;
-        height: 25px; 
-    }
-    
-    
+
     .menu_principal{
         width: 100%;
         height: 100%;
@@ -229,20 +153,11 @@ header .contenedor .logo{
         grid-column-end: 4;
         grid-row-start: 2;
         grid-row-end: 3;
-        /* float:right; */
-        /* position: absolute;
-        left: 18%;
-        top: 60%; */
-        /* display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        align-content:flex-end;
-        padding:3px 0px 0px 0px; */
     }
     
     .topnav {
         display: none;
-      }
+    }
 
     .lista_menu { 
         display:flex;
@@ -251,23 +166,11 @@ header .contenedor .logo{
         padding:3px;
         justify-content: flex-end;
         align-content: flex-end;
-        /* margin-bottom: 0; */
-    }
-    
-    .item_menu { 
-        /* list-style-type: none;
-        float: left; */
-        /* font-size:small; */
     }
     
     .menu_principal ul li a{
         padding: 3px 10px 3px 10px;
-        /* display:inline-block; */
-    }
-    
-    .menu_principal ul li a:hover{
-    
-    }
+    }  
 }    
     
 @media all and (max-width:599px) {
@@ -281,45 +184,45 @@ header .contenedor .logo{
         
     header .contenedor{
         height: 50px;
-        /* width:100%;
-        display:inline-block
-        align-content: space-around;        
-        justify-content:center; */
+        display: grid;
+        grid-template-columns: repeat(3,0.5fr);
+        grid-template-rows: repeat(1, 0.5fr);
     }
+
     header .contenedor .logo{
         width: 50px;
         height: 50px;
-        /* padding: 1px;       
-        margin: 0px 5px 0px 0px;
-        float:left */
+        grid-column-start: 1;
+        grid-column-end: 2;
     }   
     
-    /* .logo{
-        border-radius: 15%;
-        opacity: 0.5;
-    } */
-
     .barra_busqueda{
-        /* display: inline; */
-        /* justify-content: flex-end;
-        align-items: center; */
-        width: 45%;
-        height: 17px;
+        display: inline;
+        width: 100%;
+        height: 20px;
         font-size: smaller;
-        /* padding: 0px 0rem 0px 1rem;
-        margin-right: 2rem;
-        margin-top: 1rem;
-        float:right;
-        border:1px solid rgb(52, 52, 52);
-        background-color: white;
-        border-radius: 25px;
-        /* position: absolute;
-        left: 50%; */      
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding: 0px;       
+        margin-top:15%;
+        margin-right: 0px;
+        float: none;
+    }
+
+    .barra_busqueda div{
+    margin:0px; 
+    width: 70%;
+    height: 18px;
+    padding:0px;
+    float:right;
     }
     
     .barra_busqueda i{
-        /* padding: 8px 1rem 8px 2px; */
-        /* margin:3px; */
+        width: 20%;
+        height: 10px;
+        padding: 1px;
+        margin: 1px;
+        float:left;
     }
     
     .barra_busqueda i:hover{
@@ -327,64 +230,40 @@ header .contenedor .logo{
     }
     
     .barra_busqueda input{
-        /* margin:0px;
-        float:left; */
-        /* width: 75%; */
-        height: 15px;
+        width: 100%;
+        height: 18px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
-    
+
     .topnav{
         display:none;
     }
-
     
     .menu_principal{
         display: none;
-            /* width: 75%;
-            height: 20px; */
-    }
-    
-    .lista_menu { 
-        padding:1px;
-    }
-    
-    .item_menu { 
- 
-    }
-    
-    .menu_principal ul li a{
-        padding: 1px 3px 1px 3px;
-    }
-    
-    .menu_principal ul li a:hover{
     }
 
-    /* Style the navigation menu */
+    /* Estilo del menu de navegacion */
 .topnav {
    display: flex;
     overflow: hidden;
     justify-content: end;
-    /* background-color: #333; */
-    /* position: relative;     */
-    /* width: 100%;
-    height: 100%; */
   }
   
-  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* Esconde los links en el menu de navegacion */
   .topnav #myLinks {
     display: none;
     flex-direction: column;
-    background-color: #04AA6D;
+    background-color: #8ea594;
     z-index: 1;
-    width: 25%;
-
- 
+    width: 20%;
   }
   .deslizador{
     z-index: -1;
   }
   
-  /* Style navigation menu links */
+  /* Estiliza los links del menu de navegacin */
   .topnav a {
     color: white;
     padding: 12px 15px;
@@ -393,24 +272,26 @@ header .contenedor .logo{
     display: block;
     border-radius: 15%;
     font-size: 0.5em;
+    grid-column-start: 3;
+    grid-column-end: 4;
   }
   
-  /* Style the hamburger menu */
+  /* Estiliza el menu hamburguesa */
   .topnav a.icon {
     background: #8ea594;
     display: block;
     position: absolute;
-    right: 25;
-    top: 16px;
+    right: 20;
+    top: 29px;
   }
   
-  /* Add a grey background color on mouse-over */
+  /* Cambia el color a grey cuando pasa el mouse */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Style the active link (or home/logo) */
+  /* Estiliza el link activo */
   .active {
     background-color: #04AA6D;
     color: white;

@@ -22,7 +22,7 @@ function validaFormulario(){
     }
 }
 
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+/* Alternar entre mostrar y ocultar los enlaces del menú de navegación cuando se hace clic en el menú de hamburguesa/ */
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
