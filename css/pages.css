@@ -37,7 +37,7 @@
     grid-template-rows: repeat(0.5fr auto);
     grid-gap: 1em 2em;
     margin: 1em 0.5em;
-    justify-items: stretch;
+    justify-items: center;
     border-bottom: 1px solid whitesmoke;
 
 }
