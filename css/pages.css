@@ -34,7 +34,7 @@
 .Deportes{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(0.5fr auto);
+    grid-template-rows: 0.1fr 0.8fr 1fr;
     grid-gap: 1em 2em;
     margin: 1em 0.5em;
     justify-items: center;
@@ -52,9 +52,9 @@
 
 .Deportes p{
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     padding: 1em;
 }
 
@@ -67,4 +67,12 @@
     padding: 1em;
     box-shadow: 2px black;
 }
-
+.getty{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    /* padding: 1em; */
+    box-shadow: 2px black;
+}
