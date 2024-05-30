@@ -34,7 +34,7 @@
 .Deportes{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.1fr 0.8fr 1fr;
+    grid-template-rows: 0.1fr 0.8fr 0.6fr;
     grid-gap: 1em 2em;
     margin: 1em 0.5em;
     justify-items: center;
@@ -76,3 +76,157 @@
     /* padding: 1em; */
     box-shadow: 2px black;
 }
+
+@media all and (min-width:600px) and (max-width:1023px) {
+
+    .contenedor_ppal{
+        /* margin: 1em 2em; */
+        /* padding: 0em 1.5em; */
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: repeat(7, auto); */
+    }
+
+
+    .contenedor_ppal h1{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 1;
+        grid-row-end: 2; */
+        /* margin:0; */
+    }
+    
+    .intro{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 2;
+        grid-row-end: 3; */
+        /* margin:0; */
+    }
+    
+    .fin{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 7;
+        grid-row-end: 8;
+        margin:0; */
+    }    
+
+
+    .Deportes{
+        /* display:grid; */
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: 0.1fr 0.8fr 0.6fr;
+        grid-gap: 1em 2em;
+        margin: 1em 0.5em;
+        justify-items: center;
+        border-bottom: 1px solid whitesmoke; */
+    
+    }
+    
+    .Deportes h2{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 1;
+        grid-row-end: 1;
+        margin:0; */
+    }
+    
+    .Deportes p{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 3;
+        grid-row-end: 4;
+        padding: 1em; */
+    }
+    
+    .Deportes img{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 2;
+        grid-row-end: 3;
+        width: auto;
+        padding: 1em;
+        box-shadow: 2px black; */
+    }
+    .getty{
+        /* grid-column-start: 1;
+        grid-column-end: 2; */
+        /* grid-row-start: 2;
+        grid-row-end: 3;
+        width: auto; */
+        /* padding: 1em; */
+        /* box-shadow: 2px black; */
+    }
+    
+
+}
+
+@media all and (min-width:100px) and (max-width:599px) {
+
+    .contenedor_ppal{
+        margin: 0.5em 1em;
+        padding: 0em 0.5em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor_ppal h1{
+        font-size: large;
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin:0; */
+    }
+    
+    .intro{
+        font-size: small;
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin:0; */
+    }
+    
+    .fin{
+        font-size: small;
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        margin:0; */
+    }
+    
+
+    .Deportes{
+        /* display:grid; */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.05fr 0.2fr 0.3fr;
+        grid-gap: 0.5em 1em;
+        margin: 0.5em 0.2em;
+        justify-items: center;
+        border-bottom: 1px solid whitesmoke;
+    }
+    
+    .Deportes h2{
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin:0; */
+        font-size: medium;
+    }
+
+    .Deportes p{
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding: 1em; */
+        font-size: small;
+    }
+
+
+}   
