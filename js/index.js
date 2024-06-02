@@ -1,6 +1,6 @@
-const nom = document.querySelector("#nombre1");
+const nom = document.querySelector("#nombre");
 const apell = document.querySelector("#apellido");
-const mail = document.querySelector("#correo");
+const mail = document.querySelector("#email");
 const cons = document.querySelector("#comentarios");
 
 function validaFormulario(){
@@ -12,7 +12,7 @@ function validaFormulario(){
         alert("Por favor, ingresa un apellido valido")
         return false
     }
-    if (nom.value.length < 3){
+    if (mail.value.length < 3){
         alert("Por favor, ingresa un correo valido")
         return false
     }
