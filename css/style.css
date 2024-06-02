@@ -4,7 +4,7 @@ body {
     font-style: normal;
     font-size: 1.1rem;
     background-color: cadetblue;
-    background-image: url(../img/descarga.jpg);
+    background-image: url(../../img/descarga.jpg);
     background-size: cover;
     padding: 1rem;
 }
