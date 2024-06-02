@@ -19,7 +19,6 @@
     <header class="header">
         <div class="contenedor">
             <div class="logo"></div>
-                <!-- <img src="/img/logo.jpg" alt="logo">Logo</div> -->
             <div class="barra_busqueda"> 
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <div><input type="text" placeholder="Buscar....."></div>
@@ -30,7 +29,7 @@
                     <li class="item_menu"><a href="/pages/Deportes.html">Deportes</a></li>
                     <li class="item_menu"><a href="/pages/Deportistas.html">Deportistas</a></li>
                     <li class="item_menu"><a href="/pages/Equipos.html">Equipos</a></li>
-                    <li class="item_menu"><a href="/pages/Comunidad.html">Comunidad</a></li>
+                    <li class="item_menu"><a href="#form_contacto">Contacto</a></li>
                 </ul>
             </nav>
          </div>
@@ -43,9 +42,8 @@
                         <a href="pages/Deportes.html">Deportes</a>
                         <a href="pages/Deportistas.html">Deportistas</a>
                         <a href="pages/Equipos.html">Equipos</a>
-                        <a href="pages/Comunidad.html">Comunidad</a>
+                        <a href="../index.html#form_contacto">Contacto</a>
                       </div>
-                      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                       </a>
@@ -54,68 +52,52 @@
     </header>
     <main>
         <section id="seccion_principal">
+          <h1 id="ultimasnoticias">Ultimas noticias</h1>
           <div class="elfsight-app-111bd2a9-44b7-4804-8356-7a8277fdb607" data-elfsight-app-lazy></div>
-
-
-<!-- 
-            <div class="deslizador" id="shadow-drop-center">
-                <div id="carouselExampleCaptions" class="carousel slide">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <h1 id="articulos">Artículos</h1>
+                <article class="cuadros_articulos">
+                    <div class="cont_img_articulos">
+                      <img class="foto_art" id="pruebafoto" src="/img/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club.jpg" alt="Voley">
+                      <a id="pruebalink" href="https://www.freepik.es/foto-gratis/vista-angulo-hombre-musculoso-irreconocible-preparandose-levantar-barra-club-salud_25743546.htm#fromView=search&page=1&position=0&uuid=cd2d4b58-1b01-4949-b359-3b995484f7d7">Freepik</a>
                     </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="../img/carousel1jpg.jpg" class="d-block w-100" alt="Messi lo da vuelta">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Messi lo da vuelta</h5>
-                          <p>El 10 haciendo de las suyas otra vez.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../img/carousel2.png" class="d-block w-100" alt="Djokovich cae en Roma"><a href="/pages/Deportes.html"></a>
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Djokovich fuera</h5>
-                          <p>El serbio queda eliminado en Roma.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../img/carousel3.webp" class="d-block w-100" alt="La NBA esta que arde">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5 id="tituloNBA">La NBA esta que arde</h5>
-                          <p>Resultados partidos de playoffs.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+                    <h2><a href="/articulos/articulo1.html">Entrenamiento de Fuerza: Más Allá de las Pesas </a></h2>
+                    <p>Descubre cómo el entrenamiento de fuerza no solo se trata de levantar pesas en el gimnasio. Exploraremos ejercicios funcionales, técnicas de levantamiento y cómo desarrollar una base sólida para mejorar tu rendimiento atlético.</p></article>
+                <article class="cuadros_articulos">
+                  <div class="cont_img_articulos">
+                    <img class="foto_art" src="/img/happy-athletic-woman-pouring-fruit-smoothie-glass-kitchen.jpg" alt="Rugby">
+                    <a href="https://www.freepik.es/foto-gratis/mujer-atletica-feliz-vertiendo-batido-frutas-vaso-cocina_25567062.htm#fromView=search&page=3&position=1&uuid=8797922e-3999-4511-937a-36e734cb1588">Freepik</a>
                   </div>
-            </div> -->
-            <!-- <div class="articulos"> -->
-                <article class="animate__animated animate__flipInX">
-                    <img class="foto_art" src="/img/carousel4.jpg" alt="Voley" id="shadow-drop-top-bottom">
-                    <h4 class="shadow-drop-top-bottom">Campeonato Nacional de Voley: Emocionantes Partidos y Nuevas Promesas</h4>
-                    <p>Exploraremos los emocionantes detalles del reciente Campeonato Nacional de Voley. Conoceremos a las estrellas emergentes que han cautivado a los fanáticos y las estrategias innovadoras que han definido el torneo.</p></article>
-                <article class="animate__animated animate__flipInX">
-                    <img class="foto_art" src="/img/articulo2.jpg" alt="Rugby" id="shadow-drop-top-bottom">
-                    <h4>Rugby en Auge: La Pasión por el Deporte se Extiende por todo el País</h4>
-                    <p>El creciente interés y popularidad del rugby en nuestra región. Analizaremos los últimos partidos, la evolución de los equipos locales y el entusiasmo que ha generado este deporte entre los aficionados..</p></article>
-                <article class="animate__animated animate__flipInX">
-                    <img class="foto_art" src="/img/articulo3.jpg" alt="Golf" id="shadow-drop-top-bottom">
-                    <h4>Torneos de Golf: Donde la Precisión y la Elegancia se Unen</h4>
-                    <p>Exploramos los últimos eventos y campeonatos de golf que han mantenido a los fanáticos al borde de sus asientos. Descubriremos las historias detrás de los ganadores, las tendencias emergentes en el mundo del golf y la pasión que mueve a esta disciplina.</p></article>
-                <article class="animate__animated animate__flipInX">
-                    <img class="foto_art" src="/img/articulo4.webp" alt="Handball" id="shadow-drop-top-bottom">
-                    <h4>Handball: El Deporte de Acción que Cautiva a las Multitudes</h4>
-                    <p>Nos sumergimos en el emocionante mundo del handball. Analizaremos los últimos partidos, las estrategias de los equipos y el creciente interés de los aficionados por este deporte lleno de adrenalina y espectáculo.</p></article>
-            <!-- </div> -->
+                    <h2><a href="/articulos/articulo2.html">Nutrición Deportiva: Alimenta Tu Rendimiento</a></h2>
+                    <p>¿Qué debes comer antes y después de tus entrenamientos? Aprende sobre la importancia de la nutrición específica para atletas y cómo optimizar tu dieta para obtener el máximo rendimiento en el campo o la pista.</p></article>
+                <article class="cuadros_articulos">
+                  <div class="cont_img_articulos">
+                    <img class="foto_art" src="/img/girl-resting-after-exercising.jpg" alt="Golf">
+                    <a href="https://www.freepik.es/foto-gratis/chica-descansando-despues-hacer-ejercicio_1043221.htm">Freepik</a>
+                  </div>  
+                    <h2><a href="/articulos/articulo3.html">El Papel del Descanso en el Rendimiento Deportivo</a></h2>
+                    <p>No subestimes el poder del descanso. Descubre cómo el sueño adecuado, la recuperación activa y la gestión del estrés pueden mejorar tu desempeño atlético y prevenir lesiones.</p></article>
+                <article class="cuadros_articulos">
+                  <div class="cont_img_articulos">
+                    <img class="foto_art" src="/img/sports-motivation-concept-portrait-pensive-young-sportsman-put-index-fingers-his-temples-looking-camera.jpg" alt="Handball">
+                    <a href="https://www.freepik.es/foto-gratis/concepto-deportes-motivacion-retrato-joven-deportista-pensativo-puso-dedos-indices-sienes-miro-camara_25130089.htm">Freepik</a>
+                  </div>  
+                    <h2><a href="/articulos/articulo4.html">Estrategias de Motivación para Mantenerse Activo</a></h2>
+                    <p>A veces, la motivación puede flaquear. Te presentamos consejos prácticos para mantener la pasión por el deporte y superar los obstáculos que puedan surgir en el camino.</p></article>
+                <article class="cuadros_articulos">
+                  <div class="cont_img_articulos">
+                      <img class="foto_art" src="/img/trainer-helping-beginner-gym.jpg" alt="entrenamiento">
+                      <a href="https://www.freepik.es/foto-gratis/entrenador-ayudando-principiantes-gimnasio_29923673.htm#fromView=search&page=1&position=27&uuid=24a36f65-0578-4399-acc5-39a517b425a6">Freepik</a>
+                    </div> 
+                      <h2><a href="/articulos/articulo5.html">La Importancia del Entrenamiento para Mejorar la Salud y Calidad de Vida</a></h2>
+                      <p>Descubre cómo el ejercicio regular puede tener un impacto positivo en tu bienestar general. Exploraremos los beneficios físicos, mentales y emocionales del entrenamiento y cómo puedes incorporarlo a tu rutina diaria</p></article>
+                <article class="cuadros_articulos">
+                  <div class="cont_img_articulos">
+                    <img class="foto_art" src="/img/young-athletic-man-working-out-listening-music-riverside-outdoors.jpg" alt="Handball">
+                    <a href="https://www.freepik.es/foto-gratis/joven-atletico-trabajando-escuchando-musica-orilla-rio-al-aire-libre_20087595.htm">Freepik</a>
+                  </div> 
+                    <h2><a href="/articulos/articulo6.html">Deporte y Salud Mental: Una Relación Vital</a></h2>
+                    <p>Exploraremos cómo el ejercicio puede influir en tu salud mental. Desde reducir el estrés hasta aumentar la autoestima, descubrirás por qué el deporte es una herramienta poderosa para el bienestar psicológico.</p></article>
+            <!-- </div> -->            <!-- </div> -->
         </section>
         <aside id="seccion_lateral">
           <div class="lineacorta1"> 
@@ -132,22 +114,8 @@
                 </div> -->
               <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eligendi iusto quaerat recusandae! Totam fugiat voluptates animi ullam illum et maiores, maxime nisi, vel, veritatis eaque quis soluta voluptatem accusamus?</p> -->
             </div>
-            <!-- <div id="wg-api-football-fixtures"
-                data-host="v3.football.api-sports.io"
-                data-refresh="60"
-                data-date="2024-05-30"
-                data-key="11140669119d17674d5dea4a27c7638a"
-                data-theme=""
-                data-show-errors="false"
-                class="api_football_loader">
-            </div>
-            <script
-                type="module"
-                src="https://widgets.api-sports.io/football/1.1.8/widget.js">
-            </script>   -->
-          </div>  
           <div class="lineacorta3">
-            <div class="contacto"><h3>Contacto</h3>
+            <div class="contacto" id="form_contacto"><h3>Contacto</h3>
               <section>
               <form class="formBox" onsubmit="return validaFormulario()">  
                 <fieldset>
@@ -205,7 +173,7 @@
               <a href="http://www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
               <a href="http://www.instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
               <a href="http://www.youtube.com"><i class="fa-brands fa-youtube fa-xl"></i></a>
-              <a href="tel:+1 91 155-22554"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+              <a href="https://wa.me/91522554"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
             </div>
              <!-- </ul> -->
         </nav>

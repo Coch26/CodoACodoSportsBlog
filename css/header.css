@@ -115,7 +115,7 @@ header .contenedor .logo{
     header .contenedor{
         height: 90px;
         display: grid;
-        grid-template-columns: repeat(0.15fr 0.50 0.35fr);
+        grid-template-columns: 0.15fr 0.50fr 0.35fr;
         grid-template-rows: repeat(2, 0.5fr);
         align-content: flex-end;
         justify-items: stretch;
@@ -281,7 +281,7 @@ header .contenedor .logo{
     background: #8ea594;
     display: block;
     position: absolute;
-    right: 20;
+    right: 20px;
     top: 29px;
   }
   
