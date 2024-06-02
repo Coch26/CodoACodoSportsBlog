@@ -18,8 +18,6 @@
 @media all and (min-width:600px) and (max-width:1023px) {
 
     .contenedor_articulos{
-        /* margin: 1em 2em; */
-        /* padding: 0em 1.5em; */
         display: flex;
         flex-direction: column;
         /* grid-template-columns: 1fr; */
@@ -28,11 +26,7 @@
 
 
     .contenedor_articulos h1{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 1;
-        grid-row-end: 2; */
-        /* margin:0; */
+
     }
 
 }

@@ -66,9 +66,7 @@
     grid-row-end: 3;
     width: auto;
     padding: 1em;
-    /* box-shadow: 2px black; */
-    /* width: 100%;
-    height: 100%; */
+
 }
 .getty{
     grid-column-start: 1;
@@ -175,74 +173,36 @@
 
 
     .contenedor_ppal h1{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 1;
-        grid-row-end: 2; */
-        /* margin:0; */
+
     }
     
     .intro{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 2;
-        grid-row-end: 3; */
-        /* margin:0; */
+
     }
     
     .fin{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 7;
-        grid-row-end: 8;
-        margin:0; */
+
     }    
 
 
     .Deportes{
-        /* display:grid; */
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows: 0.1fr 0.8fr 0.6fr;
-        grid-gap: 1em 2em;
-        margin: 1em 0.5em;
-        justify-items: center;
-        border-bottom: 1px solid whitesmoke; */
+
     
     }
     
     .Deportes h2{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 1;
-        grid-row-end: 1;
-        margin:0; */
+
     }
     
     .Deportes p{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 3;
-        grid-row-end: 4;
-        padding: 1em; */
+
     }
     
     .Deportes img{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 2;
-        grid-row-end: 3;
-        width: auto;
-        padding: 1em;
-        box-shadow: 2px black; */
+
     }
     .getty{
-        /* grid-column-start: 1;
-        grid-column-end: 2; */
-        /* grid-row-start: 2;
-        grid-row-end: 3;
-        width: auto; */
-        /* padding: 1em; */
-        /* box-shadow: 2px black; */
+
     }
     
 
@@ -259,29 +219,14 @@
 
     .contenedor_ppal h1{
         font-size: large;
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        margin:0; */
     }
     
     .intro{
         font-size: small;
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin:0; */
     }
     
     .fin{
         font-size: small;
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 7;
-        grid-row-end: 8;
-        margin:0; */
     }
     
 
@@ -296,20 +241,12 @@
     }
     
     .Deportes h2{
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        margin:0; */
+
         font-size: medium;
     }
 
     .Deportes p{
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        padding: 1em; */
+
         font-size: small;
     }
 

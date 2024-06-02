@@ -50,7 +50,6 @@ footer nav{
     width:90%;
     height:25px;
     font-size: 1em;
-    /* border-bottom: 1px solid whitesmoke; */
     margin-bottom: 5px;
     border-bottom: 1px solid; 
     border-image: linear-gradient(0deg,whitesmoke  25%, #4b221c 75%);
