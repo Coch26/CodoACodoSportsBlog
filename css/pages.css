@@ -171,41 +171,6 @@
         flex-direction: column;
     }
 
-
-    .contenedor_ppal h1{
-
-    }
-    
-    .intro{
-
-    }
-    
-    .fin{
-
-    }    
-
-
-    .Deportes{
-
-    
-    }
-    
-    .Deportes h2{
-
-    }
-    
-    .Deportes p{
-
-    }
-    
-    .Deportes img{
-
-    }
-    .getty{
-
-    }
-    
-
 }
 
 @media all and (min-width:100px) and (max-width:599px) {
@@ -222,11 +187,11 @@
     }
     
     .intro{
-        font-size: small;
+        font-size: medium;
     }
     
     .fin{
-        font-size: small;
+        font-size: medium;
     }
     
 
@@ -242,12 +207,12 @@
     
     .Deportes h2{
 
-        font-size: medium;
+        font-size: large;
     }
 
     .Deportes p{
 
-        font-size: small;
+        font-size: medium;
     }
 
 

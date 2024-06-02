@@ -199,7 +199,7 @@ header .contenedor .logo{
         display: inline;
         width: 100%;
         height: 20px;
-        font-size: smaller;
+        font-size: small;
         grid-column-start: 2;
         grid-column-end: 3;
         padding: 0px;       
@@ -258,19 +258,16 @@ header .contenedor .logo{
     z-index: 1;
     width: 20%;
   }
-  .deslizador{
-    z-index: -1;
-  }
   
   /* Estiliza los links del menu de navegacin */
   .topnav a {
     color: white;
     padding: 12px 15px;
     text-decoration: none;
-    font-size: 17px;
+    /* font-size: 17px; */
     display: block;
     border-radius: 15%;
-    font-size: 0.5em;
+    font-size: 1em;
     grid-column-start: 3;
     grid-column-end: 4;
   }

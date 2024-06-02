@@ -20,13 +20,6 @@
     .contenedor_articulos{
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows: repeat(7, auto); */
-    }
-
-
-    .contenedor_articulos h1{
-
     }
 
 }
@@ -39,21 +32,12 @@
     }
 
     .contenedor_articulos h1{
-        font-size: large;
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        margin:0; */
+        font-size: larger;
     }
     
     .introduccion{
-        font-size: small;
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin:0; */
+        font-size: medium;
+
     }
     
     .contenedor_articulos h2{
@@ -62,7 +46,7 @@
         grid-row-start: 1;
         grid-row-end: 1;
         margin:0; */
-        font-size: medium;
+        font-size: large;
     }
 
     .contenedor_articulos p{
@@ -71,7 +55,7 @@
         grid-row-start: 3;
         grid-row-end: 4;
         padding: 1em; */
-        font-size: small;
+        font-size: medium;
     }
 
 

@@ -249,11 +249,11 @@ wg-api-football-games{
     }
 
     #seccion_principal article h2{
-        font-size: 1em ;
+        font-size: 1.2em ;
     }
 
     #seccion_lateral p{
-        font-size: 0.8em ;
+        font-size: 1em ;
     }
 
     #seccion_lateral h2{
@@ -261,7 +261,7 @@ wg-api-football-games{
     }
 
     #seccion_principal  h1{
-        font-size: 1.2em ;
+        font-size: 1.4em ;
     }
     
     #seccion_lateral{
@@ -318,30 +318,29 @@ wg-api-football-games{
     }
     
     #seccion_principal article p{
-        font-size: 0.8em ;
+        font-size: 1em ;
     }
 
     #seccion_principal article h2{
-        font-size: 1em ;
+        font-size: 1.2em ;
     }
 
     #seccion_principal article p{
-        font-size: 0.8em ;
-    }
-
-    #seccion_lateral h2{
         font-size: 1em ;
     }
 
+    #seccion_lateral h2{
+        font-size: 1.2em ;
+    }
+
     #seccion_lateral p{
-        font-size: 0.8em ;
+        font-size: 1em ;
     }
 
     #seccion_lateral{
         float: none;
         display: flex;
         flex-direction: column;
-
         width: 100%;
         padding: 1em;      
     }
