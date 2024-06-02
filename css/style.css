@@ -311,7 +311,13 @@ wg-api-football-games{
         height: auto;
         float:none; 
     }
-      
+    
+    #seccion_principal .cuadros_articulos {
+        margin:0.1em;
+        padding: 0.2em;
+    }
+
+
     #seccion_principal article {
         margin-left: 0.5em ;
         margin-right: 0.5em;

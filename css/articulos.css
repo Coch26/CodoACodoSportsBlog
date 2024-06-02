@@ -32,11 +32,11 @@
     }
 
     .contenedor_articulos h1{
-        font-size: larger;
+        font-size: 1.5em;
     }
     
     .introduccion{
-        font-size: medium;
+        font-size: 1.1em;
 
     }
     
@@ -46,16 +46,11 @@
         grid-row-start: 1;
         grid-row-end: 1;
         margin:0; */
-        font-size: large;
+        font-size: 1.3em;
     }
 
     .contenedor_articulos p{
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        padding: 1em; */
-        font-size: medium;
+        font-size: 1.1em;
     }
 
 

@@ -57,6 +57,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
     padding: 1em;
+    text-align: justify;
 }
 
 .Deportes img{
@@ -211,8 +212,9 @@
     }
 
     .Deportes p{
-
+        padding: 0em;
         font-size: medium;
+
     }
 
 
